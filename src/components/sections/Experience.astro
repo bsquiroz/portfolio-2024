@@ -1,0 +1,104 @@
+---
+import Section from "../Section.astro";
+
+import { work } from "@cv";
+
+const months = [
+  "Enero",
+  "Febrero",
+  "Marzo",
+  "Abril",
+  "Mayo",
+  "Junio",
+  "Julio",
+  "Agosto",
+  "Septiembre",
+  "Octubre",
+  "Noviembre",
+  "Diciembre",
+];
+---
+
+<Section title="Experiencia laboral">
+  <ul>
+    {
+      work.map(({ name, startDate, endDate, position, summary, url }) => {
+        const startMonth = months[new Date(startDate).getMonth()];
+        const endMonth = endDate ? months[new Date(endDate).getMonth()] : "";
+
+        const startYear = new Date(startDate).getFullYear();
+        const endYear =
+          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
+
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>
+                    <a href={url} title={`Ver ${name}`} target="_blank">
+                      {name}
+                    </a>
+                  </h3>
+                  <h4>{position}</h4>
+                </div>
+
+                <time>{years}</time>
+              </header>
+
+              <footer>
+                <p>{summary}</p>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: var(--color-title);
+  }
+
+  article a {
+    color: var(--color-title);
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }
+
+  article h4 {
+    color: var(--color-p1);
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: var(--color-p);
+    font-size: 0.85rem;
+    min-width: 102px;
+  }
+
+  @media (width <= 700px) {
+    time {
+      text-align: right;
+    }
+  }
+</style>

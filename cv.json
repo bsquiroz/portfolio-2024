@@ -1,0 +1,280 @@
+{
+  "basics": {
+    "name": "Stiven Quiroz",
+    "label": "Full Stack Developer con 3 años de experiencia, especializado en el mundo de Javascript y TypeScript.",
+    "image": "/me.jpeg",
+    "email": "bemq1605@gmail.com",
+    "phone": "+57 3136126730",
+    "url": "https://bsquiroz.site/",
+    "summary": "3 años de experiencia como Desarrollador Web, tanto en el lado del cliente como en el servidor. Actualmente, soy Fullstack. Vivo en Medellín, Colombia. He trabajado en diferentes entornos, tanto en desarrollo como a nivel académico como instructor.",
+    "location": {
+      "address": "",
+      "postalCode": "050005",
+      "city": "Medellín",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "bsqm",
+        "url": "https://www.linkedin.com/in/bsmq/"
+      },
+      {
+        "network": "GitHub",
+        "username": "bsquiroz",
+        "url": "https://github.com/bsquiroz"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Alexandra Lozano",
+      "position": "Ingeniero de software II",
+      "url": "https://abogadaalexandra.com/en/",
+      "startDate": "2024-02-14",
+      "endDate": null,
+      "summary": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Academlo",
+      "position": "Desarrollador fullstack e instrutor JS",
+      "url": "https://www.academlo.com/",
+      "startDate": "2022-06-02",
+      "endDate": "2023-10-02",
+      "summary": "Encargado de las funcionalidades del producto en Academlo, utilizando diversas tecnologías centradas en JavaScript. También desempeño el rol de instructor de JavaScript, siendo el producto estrella de la empresa la enseñanza de programación.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Neoris",
+      "position": "Desarrollador React y React native",
+      "url": "https://www.neoris.com/",
+      "startDate": "2021-10-30",
+      "endDate": "2022-06-02",
+      "summary": "Lideré el equipo de frontend para la empresa ETB en Colombia, encargándome de realizar la integración del producto desarrollado por otra empresa. Ejecuté la implementación y desarrollo tanto para la web como para dispositivos móviles utilizando React, React Native y Next.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Atalaya",
+      "position": "Desarrollador Fullstack js",
+      "url": "#",
+      "startDate": "2020-10-01",
+      "endDate": "2021-10-01",
+      "summary": "Primera experiencia laboral trabajando con tecnologías JavaScript que buscaban resolver problemas del día a día. Estuve involucrado en diversos proyectos de la startup, tanto en el backend como en el frontend.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad pascual bravo",
+      "url": "https://pascualbravo.edu.co/",
+      "area": "Tecnólogo en desarrollo de Software",
+      "studyType": "Bachelor",
+      "startDate": "2019-08-01",
+      "endDate": "2022-08-01",
+      "score": "4.4",
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Universidad pascual bravo",
+      "url": "https://pascualbravo.edu.co/",
+      "area": "Ingenieria en desarrollo de Software",
+      "studyType": "Bachelor",
+      "startDate": "2019-08-01",
+      "endDate": null,
+      "score": "4.4",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "React Native",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "ETB fibra optica",
+      "isActive": true,
+      "description": "Se implementó la vista y todas las subvistas de este comercio electrónico, avanzando hacia la integración con pasarelas de pago.",
+      "highlights": ["Web & mobile", "React & Next"],
+      "url": "https://tienda.etb.com/planes-fibra-optica/"
+    },
+    {
+      "name": "QR Gourmeats",
+      "isActive": true,
+      "description": "Se trabajó en conjunto con otro desarrollador para implementar un menú que revolucionaría el mundo de los menús.",
+      "highlights": ["Menu", "Comidas"],
+      "url": "https://qr.gourmeatsapp.com/slider/kYSud8oMGLfPoXwi2AQD"
+    },
+    {
+      "name": "Menu BS",
+      "isActive": true,
+      "description": "Implementación de un menú de código abierto para que los emprendedores puedan contar con una carta virtual.",
+      "highlights": ["Menu virtual", "Codigo abierto"],
+      "url": "https://menubsquiroz.netlify.app/"
+    },
+    {
+      "name": "EmpowerFront",
+      "isActive": true,
+      "description": "Se implementó la iniciativa de grabar cómo se resuelven retos de frontend para las personas que están iniciando.",
+      "highlights": ["Frontendmentor", "Soluciones"],
+      "url": "https://bsquirozfrontendmentor.netlify.app/"
+    },
+    {
+      "name": "1000 words",
+      "isActive": true,
+      "description": "Aplicación diseñada para aprender las 1000 palabras más usadas en inglés.",
+      "highlights": ["Ingles", "Aprendizaje"],
+      "url": "https://bsquiroz1000words.netlify.app/"
+    },
+    {
+      "name": "ShoppingStore",
+      "isActive": true,
+      "description": "Creación e implementación de un reto de programación que servía como proyecto final para los estudiantes del bootcamp.",
+      "highlights": ["Pruebate a ti mismo", "Vamos a codear"],
+      "url": "https://academlostorev1.netlify.app/"
+    }
+  ]
+}

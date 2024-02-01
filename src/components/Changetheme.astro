@@ -1,0 +1,44 @@
+<span id="btnChangeTheme"></span>
+
+<style>
+  #btnChangeTheme {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  const themePortfolio = localStorage.getItem("themePorfolio") || "dark";
+  const iconChangeTheme = document.querySelector("#btnChangeTheme");
+
+  function handleDark() {
+    document.querySelector("html")?.classList.add("dark");
+    iconChangeTheme!.innerHTML = "<i class='bx bx-sun'></i>";
+  }
+
+  function handleLight() {
+    document.querySelector("html")?.classList.remove("dark");
+    iconChangeTheme!.innerHTML = "<i class='bx bx-moon'></i>";
+  }
+
+  if (themePortfolio === "dark") {
+    handleDark();
+  } else {
+    handleLight();
+  }
+
+  iconChangeTheme?.addEventListener("click", () => {
+    const isDark = document.querySelector("html")?.classList.contains("dark");
+
+    if (isDark) {
+      localStorage.setItem("themePorfolio", "light");
+      handleLight();
+    } else {
+      localStorage.setItem("themePorfolio", "dark");
+      handleDark();
+    }
+  });
+</script>
