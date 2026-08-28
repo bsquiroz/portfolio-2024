@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Stiven Quiroz",
-    "label": "Full Stack Developer con 3 años de experiencia, especializado en el mundo de Javascript y TypeScript.",
+    "label": "Ingeniero de Software Fullstack con más de 5 años de experiencia, especializado en React.js, Vue.js y TypeScript.",
     "image": "/me.jpeg",
     "email": "bemq1605@gmail.com",
     "phone": "+57 3136126730",
     "url": "https://bsquiroz.site/",
-    "summary": "3 años de experiencia como Desarrollador Web, tanto en el lado del cliente como en el servidor. Actualmente, soy Fullstack. Vivo en Medellín, Colombia. He trabajado en diferentes entornos, tanto en desarrollo como a nivel académico como instructor.",
+    "summary": "Ingeniero de Software Fullstack con más de 5 años de experiencia desarrollando y desplegando aplicaciones web escalables. Experiencia en React.js, Vue.js, TypeScript, integración de APIs y arquitectura de software orientada a producto. Especializado en arquitectura frontend, sistemas de diseño, rendimiento, accesibilidad y calidad de software mediante pruebas automatizadas y procesos CI/CD. Vivo en Medellín, Colombia.",
     "location": {
       "address": "",
       "postalCode": "050005",
@@ -29,40 +29,45 @@
   },
   "work": [
     {
-      "name": "Alexandra Lozano",
-      "position": "Ingeniero de software II",
-      "url": "https://abogadaalexandra.com/en/",
-      "startDate": "2024-02-14",
-      "endDate": null,
-      "summary": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)",
-      "highlights": ["Started the company"]
+      "name": "Arreglatech",
+      "position": "Ingeniero de software",
+      "url": "#",
+      "startDate": "2024-02-01",
+      "endDate": "2026-07-01",
+      "summary": "Desarrollo y despliegue de soluciones Fullstack utilizando React.js, TypeScript y tecnologías backend. Liderazgo técnico de funcionalidades de extremo a extremo, desde el análisis de requerimientos hasta su puesta en producción. Integración y desarrollo de APIs y servicios backend para procesos críticos de negocio.",
+      "highlights": [
+        "Creación de librerías de componentes reutilizables y evolución del sistema de diseño corporativo",
+        "Configuración y mejora de procesos CI/CD utilizando Docker, GitHub Actions y SonarQube",
+        "Implementación de pruebas automatizadas con Vitest",
+        "Uso de herramientas de Inteligencia Artificial para acelerar el desarrollo y optimizar la entrega de soluciones"
+      ]
     },
     {
       "name": "Academlo",
-      "position": "Desarrollador fullstack e instrutor JS",
+      "position": "Desarrollador e Instructor",
       "url": "https://www.academlo.com/",
-      "startDate": "2022-06-02",
-      "endDate": "2023-10-02",
-      "summary": "Encargado de las funcionalidades del producto en Academlo, utilizando diversas tecnologías centradas en JavaScript. También desempeño el rol de instructor de JavaScript, siendo el producto estrella de la empresa la enseñanza de programación.",
-      "highlights": ["Started the company"]
+      "startDate": "2022-05-01",
+      "endDate": "2024-09-01",
+      "summary": "Impartición de cursos de desarrollo web con JavaScript, React.js y Vue.js. Mentoría técnica y acompañamiento a estudiantes en proyectos de software. Diseño y evaluación de pruebas técnicas.",
+      "highlights": ["Instructor de JavaScript, React.js y Vue.js", "Mentoría técnica a estudiantes"]
     },
     {
       "name": "Neoris",
-      "position": "Desarrollador React y React native",
+      "position": "React Developer",
       "url": "https://www.neoris.com/",
-      "startDate": "2021-10-30",
-      "endDate": "2022-06-02",
-      "summary": "Lideré el equipo de frontend para la empresa ETB en Colombia, encargándome de realizar la integración del producto desarrollado por otra empresa. Ejecuté la implementación y desarrollo tanto para la web como para dispositivos móviles utilizando React, React Native y Next.",
-      "highlights": ["Started the company"]
+      "startDate": "2021-11-01",
+      "endDate": "2022-06-01",
+      "summary": "Desarrollo de aplicaciones web y móviles con React.js y React Native. Construcción de componentes reutilizables y escalables. Integración con APIs REST y gestión de estado. Trabajo colaborativo bajo metodología Scrum.",
+      "highlights": ["Lideré el equipo de frontend para el producto de ETB en Colombia"]
     },
     {
       "name": "Atalaya",
-      "position": "Desarrollador Fullstack js",
+      "position": "Desarrollador Fullstack",
       "url": "#",
-      "startDate": "2020-10-01",
-      "endDate": "2021-10-01",
-      "summary": "Primera experiencia laboral trabajando con tecnologías JavaScript que buscaban resolver problemas del día a día. Estuve involucrado en diversos proyectos de la startup, tanto en el backend como en el frontend.",
-      "highlights": ["Started the company"]
+      "startDate": "2020-11-01",
+      "endDate": "2021-11-01",
+      "summary": "Desarrollo de APIs REST con Node.js y Express. Gestión de bases de datos PostgreSQL y MongoDB. Implementación de autenticación y autorización con JWT. Desarrollo de aplicaciones Fullstack con React.js y Node.js.",
+      "highlights": ["Primera experiencia laboral en desarrollo Fullstack"]
     }
   ],
   "volunteer": [
@@ -209,6 +214,66 @@
       "name": "React Native",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Vue.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Framework", "UI"]
+    },
+    {
+      "name": "Express.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "Node.js", "APIs REST"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Avanzado",
+      "keywords": ["Bases de Datos", "NoSQL", "Backend"]
+    },
+    {
+      "name": "GraphQL",
+      "level": "Intermedio",
+      "keywords": ["APIs", "Backend", "Frontend"]
+    },
+    {
+      "name": "Docker",
+      "level": "Avanzado",
+      "keywords": ["DevOps", "CI/CD", "Contenedores"]
+    },
+    {
+      "name": "GitHub Actions",
+      "level": "Avanzado",
+      "keywords": ["CI/CD", "DevOps", "Automatización"]
+    },
+    {
+      "name": "Testing (Vitest, Jest, Cypress)",
+      "level": "Avanzado",
+      "keywords": ["Pruebas Automatizadas", "Calidad de Software", "CI/CD"]
+    },
+    {
+      "name": "Microfrontends",
+      "level": "Avanzado",
+      "keywords": ["Arquitectura Frontend", "Escalabilidad"]
+    },
+    {
+      "name": "Sistemas de Diseño",
+      "level": "Avanzado",
+      "keywords": ["Design Systems", "Componentes Reutilizables", "UI"]
+    },
+    {
+      "name": "LLMs / IA",
+      "level": "Avanzado",
+      "keywords": [
+        "Inteligencia Artificial",
+        "Automatización",
+        "Productividad",
+        "Desarrollo Asistido por IA"
+      ]
     }
   ],
   "languages": [
@@ -218,7 +283,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "B1 - Intermediate"
     }
   ],
   "interests": [
